@@ -1,3 +1,32 @@
+
+>代码的原型是这位老哥的，他的[github地址-ArtQRCode](https://github.com/252860883/ArtQRCode)
+
+配合另一位老哥对二维码的讲解--[深度探索二维码及其应用](https://www.cnblogs.com/yunlambert/p/10290367.html)，让我对二维码的理解更深了，我大部分代码都加了注释，不过关于纠错算法的地方，我肝不动了，看不下去了。
+
+初衷是想用在vue项目中，[github地址](https://github.com/maozhenwei/learnqrcode)
+#### 效果
+普通模式
+![在这里插入图片描述](https://img-blog.csdnimg.cn/4df9374a89724b5a85d1ca947f2411c4.png)
+原本有的艺术二维码（以图片作为填充元素）
+![在这里插入图片描述](https://img-blog.csdnimg.cn/38e57d79320a4792b0356441a586107c.png)
+
+
+**附加的内容**：我主要是做了些canvas的操作
+
+图片作为前景色填充
+![在这里插入图片描述](https://img-blog.csdnimg.cn/72c1f5796e03447c8187bca25a74a26c.png)
+图片作为背景色填充
+![在这里插入图片描述](https://img-blog.csdnimg.cn/6e2c6428b3dd42a48aa79b0629280a92.png)
+多彩模式-线性渐变
+![在这里插入图片描述](https://img-blog.csdnimg.cn/f7f99ed0b751477db1e43a3e03612e8b.png)
+多彩模式-径向渐变
+![在这里插入图片描述](https://img-blog.csdnimg.cn/eb5d93b837084cb1babc8d4d1fdfa359.png)
+多彩模式-随机块
+![在这里插入图片描述](https://img-blog.csdnimg.cn/9194949673564126a732973054cd3d45.png)
+gif--(用到了libgif.js和gif.js)，其实这是一张gif图片，后面小人在跑的
+![在这里插入图片描述](https://img-blog.csdnimg.cn/926e375ab6d34416b49faf2ee65fd59c.png)
+中心logo
+![在这里插入图片描述](https://img-blog.csdnimg.cn/def8aae00a6742dca12abafd0b8bdd7e.png)
 |属性  | 描述
 |--|--|
 | text |  二维码的内容
